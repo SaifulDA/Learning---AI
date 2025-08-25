@@ -185,7 +185,9 @@ Repository ini berisi rangkuman **pemanfaatan AI untuk meningkatkan produktivita
 
 ✨ Dokumentasi ini dibuat untuk mempermudah penggunaan AI dalam mendukung produktivitas sehari-hari.
 
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------# 🎨 Belajar Penggunaan Generative AI
+--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 🎨 Belajar Penggunaan Generative AI
 
 Repository ini berisi rangkuman tentang **Generative AI**, mulai dari konsep dasar, cara kerja, hingga penerapannya dalam berbagai bidang seperti teks, gambar, audio, dan video.  
 
