@@ -2,7 +2,7 @@
 
 Selamat datang di dokumentasi **Belajar Dasar AI**!  
 Repository ini berisi rangkuman materi tentang pengenalan AI, data, machine learning, hingga deep learning yang dirangkum dari berbagai sumber pembelajaran.  
-
+Tambahkan jika kalian ingin menambahkan Dokumentasi ini. Terbuka untuk umum. :)
 ---
 
 ## 📌 Daftar Isi
