@@ -112,7 +112,8 @@ Repository ini berisi rangkuman **pemanfaatan AI untuk meningkatkan produktivita
 5. [AI untuk Komunikasi & Kolaborasi](#-ai-untuk-komunikasi--kolaborasi)
 6. [AI untuk Otomasi Tugas](#-ai-untuk-otomasi-tugas)
 7. [Tips Menggunakan AI Secara Efektif](#-tips-menggunakan-ai-secara-efektif)
-8. [Referensi & Tools Rekomendasi](#-referensi--tools-rekomendasi)
+8. [Pola Dasar Prompt](#-Pola-Dasar-Prompt)
+9. [Referensi & Tools Rekomendasi](#-referensi--tools-rekomendasi)
 
 ---
 
@@ -180,6 +181,50 @@ Repository ini berisi rangkuman **pemanfaatan AI untuk meningkatkan produktivita
 - **Data**: Excel Copilot, Tableau AI.  
 - **Kolaborasi**: Notion AI, Otter.ai.  
 - **Otomasi**: Zapier, Make, IFTTT.  
+
+---
+
+### 📐 Pola Dasar Prompt
+
+#### 1. 🎭 Persona
+Template:
+```
+Anda adalah [persona]. Jelaskan [topik] sesuai gaya [persona].
+```
+Contoh: *Anda adalah seorang guru SD, jelaskan sistem pencernaan dengan bahasa anak-anak.*
+
+#### 2. 👥 Persona Audiens
+Template:
+```
+Jelaskan [topik] kepada [target audiens] dengan bahasa yang sesuai.
+```
+Contoh: *Jelaskan algoritma untuk anak 5 tahun.*
+
+#### 3. 🔄 Few-Shots
+Template:
+```
+Tugas: [deskripsi tugas]
+Contoh:
+Input: ...
+Output: ...
+Sekarang, Input: [data baru]
+Output:
+```
+Contoh: *Ekstrak topik dari judul berita.*
+
+#### 4. 🧠 Chain-of-Thought
+Template:
+```
+Jelaskan langkah berpikir Anda sebelum memberikan jawaban akhir tentang [topik].
+```
+Contoh: *Kenapa langit berwarna biru?*
+
+#### 5. 🧩 ReAct (Reasoning + Acting)
+Template:
+```
+Pertama, lakukan penalaran. Jika perlu, ambil data eksternal. Kemudian berikan jawaban.
+```
+Contoh: *Berikan cuaca terkini di Jakarta.*
 
 ---
 
