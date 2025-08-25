@@ -274,3 +274,120 @@ Repository ini berisi rangkuman tentang **Generative AI**, mulai dari konsep das
 
 ✨ Dokumentasi ini dibuat untuk memahami dan mempraktikkan penggunaan **Generative AI** secara aman, kreatif, dan produktif.
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+# 💻 Prompt Engineering untuk Software Developer
+
+Repository ini berisi rangkuman materi tentang **Prompt Engineering**, khususnya penerapannya dalam **software development**.  
+Pembahasan meliputi dasar-dasar prompt engineering, pola-pola efektif, penerapan dalam coding & dokumentasi, hingga limitasi dan etika penggunaan Generative AI.  
+
+---
+
+## 📌 Daftar Isi
+1. [Pengenalan Prompt Engineering](#-pengenalan-prompt-engineering)
+2. [Berbagai Pola dalam Prompt Engineering](#-berbagai-pola-dalam-prompt-engineering)
+3. [Prompt Engineering untuk Software Development](#-prompt-engineering-untuk-software-development)
+4. [Limitasi dan Etika Generative AI](#-limitasi-dan-etika-generative-ai)
+5. [Best Practices](#-best-practices)
+6. [Referensi](#-referensi)
+
+---
+
+## 🚀 Pengenalan Prompt Engineering
+- **Generative AI** → AI yang berfokus pada pembuatan konten baru (teks, gambar, kode, dsb).  
+- **Prompt** → instruksi berbasis teks untuk memandu AI melakukan tugas tertentu.  
+- **Prompt Engineering** → seni/ilmu merancang prompt agar AI menghasilkan jawaban sesuai kebutuhan.  
+
+### 📊 Kelebihan Generative AI
+- **Produktivitas & efisiensi** → menyelesaikan pekerjaan repetitif.  
+- **Kemampuan mengingat konteks** → percakapan bisa berkelanjutan.  
+- **Fleksibilitas penggunaan** → memahami bahasa natural.  
+
+### ⚠️ Kekurangan Generative AI
+- **Cut-off date** → model tidak tahu info terbaru setelah tanggal pelatihan.  
+- **Bias** → hasil dipengaruhi dataset.  
+- **Halusinasi** → jawaban salah tapi terdengar meyakinkan.  
+
+### 🧱 Struktur Prompt yang Efektif
+1. **Peran** → memberi identitas (misal: “Anda adalah senior software engineer”).  
+2. **Objektif** → tujuan jelas.  
+3. **Konteks** → detail agar AI tidak salah asumsi.  
+4. **Batasan** → panjang output, format, atau aturan khusus.  
+
+---
+
+## 🧩 Berbagai Pola dalam Prompt Engineering
+- **Persona** → AI berperan sebagai tokoh tertentu.  
+- **Audience Persona** → AI menyesuaikan output sesuai target audiens.  
+- **Few-Shots** → memberi contoh input-output sebelum pertanyaan baru.  
+- **Chain-of-Thought** → minta AI menunjukkan langkah berpikir.  
+- **ReAct** → kombinasi reasoning + action (akses tool eksternal).  
+
+### 🔄 Adaptive Prompting
+- **Question Refinement** → AI memperbaiki pertanyaan sebelum menjawab.  
+- **Alternative Approaches** → memberi opsi pertanyaan alternatif.  
+- **Cognitive Verifier** → memecah pertanyaan jadi bagian kecil.  
+- **Flipped Interaction** → AI bertanya balik dulu sebelum menjawab.  
+
+### ⚙️ Konsistensi Output
+- **Tail Generation** → AI selalu mengulang aturan tertentu di akhir output.  
+- **Template** → menjaga format output konsisten (misalnya JSON, tabel).  
+- **Delimiter** → gunakan tanda khusus `<...>` agar instruksi terpisah jelas.  
+
+### 📈 Iterative Prompt Development
+- Prompt tidak final → selalu disempurnakan berdasarkan hasil AI.  
+- Bisa dengan **revisi prompt** atau **feedback langsung**.  
+
+---
+
+## 💻 Prompt Engineering untuk Software Development
+Penerapan di dunia nyata:  
+- Membuat kode program.  
+- Refactoring kode (optimisasi).  
+- Membuat test script.  
+- Menyusun dokumentasi kode.  
+
+### 🛠️ Best Practices (Studi Kasus To-Do List)
+- Menentukan fitur aplikasi → gunakan struktur prompt.  
+- Membuat data dummy → gunakan pola template.  
+- Meningkatkan kualitas kode → gunakan pola question refinement.  
+- Membuat test script → gunakan pola flipped interaction.  
+- Menulis dokumentasi kode → gunakan pola audience persona.  
+
+### ⚠️ Keterbatasan
+- **Context window terbatas** → model bisa kehilangan konteks saat interaksi panjang.  
+  - Solusi: buat interaksi baru dengan rangkuman prompt.  
+- **Rangkuman prompt** bisa dibuat manual atau diminta ke AI sebelum interaksi baru.  
+
+---
+
+## 🔒 Limitasi dan Etika Generative AI
+### Limitasi
+- **Cut-off data** → kode bisa usang/deprecated.  
+- **Halusinasi** → AI menghasilkan kode salah/tidak ada.  
+- **Context window terbatas** → jawaban bisa melenceng.  
+
+### Etika
+- **Privasi Data** → jangan masukkan data sensitif perusahaan.  
+- **Akuntabilitas** → developer tetap bertanggung jawab atas kode AI.  
+- **Transparansi** → jelaskan jika produk menggunakan AI.  
+
+---
+
+## 🌟 Best Practices
+- Rancang prompt dengan struktur **Peran → Objektif → Konteks → Batasan**.  
+- Gunakan pola **few-shot** dan **chain-of-thought** untuk hasil lebih konsisten.  
+- Hindari interaksi terlalu panjang → gunakan ringkasan prompt.  
+- Selalu verifikasi kode dari AI sebelum digunakan.  
+- Gunakan AI untuk **mendukung, bukan menggantikan** peran developer.  
+
+---
+
+## 📚 Referensi
+- Dicoding Academy: *Prompt Engineering untuk Software Developer*  
+- OpenAI: [ChatGPT](https://openai.com/chatgpt)  
+- Stanford HAI: *Chain-of-Thought Prompting*  
+
+---
+
+✨ Dokumentasi ini dibuat untuk membantu software developer memahami dan menerapkan **Prompt Engineering** secara efektif dalam aktivitas pengembangan perangkat lunak.
